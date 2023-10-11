@@ -257,5 +257,3 @@ df_taxdown_final['broker'] = 'eToro'
 # ES -> Excel a CSV 
 #   Haz clic en Archivo> Guardar como> luego cambia el formato de archivo de Libro de Excel (.xlsx) a CSV codificado en UTF-8 (delimitado por comas) (.csv) y guárdalo.
 df_taxdown_final.to_csv(taxdown_output_path, encoding = 'utf-8', decimal = ',', index = False, sep = ';')
-
-
